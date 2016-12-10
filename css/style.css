@@ -159,12 +159,10 @@ padding: 2em 0;
 border-bottom: 1px solid #D7D3D3;
 }
 .welcome h2 {
-color: #959595;
+color: blue;
 font-size: 2em;
 font-weight: 400;
-width: 50%;
-margin: 0 auto 1.5em;
-line-height: 1.3em;
+text-align: center;
 }
 span {
 color: #3b8e31;
