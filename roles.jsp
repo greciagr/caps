@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Clientes</title>
+<title>Roles</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,17 +28,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Nombres');
-        data.addColumn('string', 'Apellidos');
-        data.addColumn('string', 'Cedula');
-        data.addColumn('number', 'Edad');
-        data.addColumn('string', 'Sexo');
-        data.addColumn('string', 'Barrio');
-        data.addColumn('string', 'Celular');
-        data.addColumn('string', 'Telefono');
+        data.addColumn('string', 'Rol');
         data.addRows([
-          ['Andres', 'Orozco', '001-233456-0008Z', 30, 'Masculino', 'Juan Pablo II', '2222-2222', '8888-8888'],
-          ['Martha', 'Guembes', '001-233356-0005X', 29, 'Femenino', 'Vista Hermosa', '2222-2222', '8888-8888']       
+          ['Administrador'],
+          ['Jefe de Sucursal'],
+                
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
@@ -126,36 +120,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-9 top-right">
 <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Información de Cliente</h2>
+			 <h2>Roles</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				 <input type="text" placeholder="Nombres" required/>
-                 <input type="text" placeholder="Apellidos" required/>
-				 <input type="text" placeholder="Cedula" required/>
-                 <input type="text" placeholder="Edad" required/>
-                 <select class="combos-cliente">
-                    <option value="#">Selecionar sexo...</option>
-                    <option value="Femenino">Femenino</option>
-                    <option value="Masculino">Masculino</option>
-                </select>
-                 <select class="combos-cliente" >
-                    <option value="#">Selecionar barrio...</option>
-                    <option value="Primera etapa">Primera etapa</option>
-                    <option value="Segunda etapa">Segunda etapa</option>
-                    <option value="Vista Hermosa">Vista hermosa</option>
-                    <option value="Juan Pablo II">Juan Pablo II</option>
-                     <option value="Xolotlán">Xolotlán</option>
-                </select>
-				 <input type="text" placeholder="Celular" required/>
-				 <input type="text" placeholder="Telefono" required/>
+				 <br><input type="text" placeholder="Rol" required/></br>
 				<!--<textarea placeholder="Message"></textarea>-->
-				<input type="reset" value="Nuevo"> 
-				 <input type="submit" value="Guardar">
+				 <input type="submit" value="Crear">
+				 <input type="submit" value="Eliminar">
 				 <input type="submit" value="Modificar">
-				 <input type="submit" value="Dar de baja">
-				 <input type="submit" value="Buscar">               
-			 </form>
 
 			  <div id="table_div"></div>
 		  </div>	 
