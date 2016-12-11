@@ -792,7 +792,9 @@ padding:0;
 .contact-details form input[type="submit"] {
 font-weight: 400;
 color:blue;
+margin-left: 1.5em;
 outline: none;
+margin-bottom: 2em;
 border: 1px solid blue;
 font-size: 1em;
 padding: 0.6em 3em;
