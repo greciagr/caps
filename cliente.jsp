@@ -27,19 +27,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="col-md-3 top-left">
 				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+					<a href="index.html"><img src="images/caps.png" class="img-responsive" alt="" /></a>
 				</div>
-				<h4 class="menn">Menu</h4>
+				<h4 class="menn">Facturacion</h4>
 				<label></label>
 				<div class="head-nav">
 					<span class="menu"> </span>
 						<ul class="cl-effect-15">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="achives.html">Achives</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="404.html">Shop</a></li>
-							<li class="active"><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="#">Factura</a></li>
+							<li><a href="#">Recibos</a></li>
+							<li><a href="#">Servicios</a></li>
+							<li><a href="#">Medidas</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 						<!-- script-for-nav -->
@@ -54,13 +52,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="clearfix"> </div>
 				<div class="project">
-					<h4>Projects</h4>
+					<h4>Reportes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Creative Beacon</a></li>
-						<li><a href="#">Design Crawl</a></li>
-						<li><a href="#">Free Website templates</a></li>
-						<li><a href="#">Web Design Fanatic</a></li>
+						<li><a href="#">Contrato</a></li>
+						<li><a href="#">Cortes</a></li>
+						<li><a href="#">Historial</a></li>
+						<li><a href="#">Documentos</a></li>
 					</ul>
 				</div>
 				<div class="project">
