@@ -688,9 +688,9 @@ margin: 1em 0;
 	margin: 2em 0;
 }
 .contact-info h2 {
-color: #3b8e31;
+color: black;
 font-weight: 300;
-font-size: 3em;
+font-size: 2em;
 margin-bottom: 0.5em;
 }
 .contact-info p {
@@ -701,13 +701,14 @@ font-weight: 400;
 margin-bottom: 1em;
 }
 .contact-details form input[type="text"], .contact-details textarea {
-width: 46.7%;
-margin-right: 4%;
+width: 46%;
+height: 20%;
+margin-right: 2%;
 padding: 12px;
-border: 1px solid #E2E0ED;
+border: 1px solid blue;
 font-size: 1em;
 margin-bottom: 2em;
-color: #C2C1CB;
+color: black;
 background: #fff;
 outline: none;
 font-weight: 400;
@@ -718,8 +719,34 @@ transition: 0.5s all ease;
 -o-transition: 0.5s all ease;
 -ms-transition: 0.5s all ease;
 }
+
+.combos-cliente{
+  width: 46%;
+height: 20%;
+margin-right: 2%;
+padding: 12px;
+border: 1px solid blue;
+font-size: 1em;
+margin-bottom: 2em;
+color: black;
+background: #fff;
+outline: none;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+transition: 0.5s all ease;
+-webkit-transition: 0.5s all ease;
+-moz-transition: 0.5s all ease;
+-o-transition: 0.5s all ease;
+-ms-transition: 0.5s all ease;
+
+}
+
+.combos-cliente ::hover{
+  border: 1px solid deepskyblue;
+
+}
 .contact-details form input[type="text"]:hover, .contact-details textarea:hover{
-border: 1px solid #3b8e31;
+border: 1px solid deepskyblue;
 }
 .contact-details textarea {
 resize: none;
@@ -763,9 +790,9 @@ padding:0;
 }
 .contact-details form input[type="submit"] {
 font-weight: 400;
-color:#3b8e31;
+color:blue;
 outline: none;
-border: 1px solid #3b8e31;
+border: 1px solid blue;
 font-size: 1em;
 padding: 0.6em 3em;
 background:transparent;
@@ -776,9 +803,9 @@ transition: 0.5s all;
 -ms-transition: 0.5s all;
 }
 .contact-details form input[type="submit"]:hover{
-border: 1px solid #3b8e31;
-background:#3b8e31;
-color:#fff;
+border: 1px solid black;
+background: #0f2637;
+color: white;
 }
 /*--about--*/
 .about-content, .contact-content, .single {
