@@ -20,6 +20,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <script src="js/jquery.min.js"></script>
+
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Nombres');
+        data.addColumn('string', 'Apellidos');
+        data.addColumn('string', 'Cedula');
+        data.addColumn('number', 'Edad');
+        data.addColumn('string', 'Sexo');
+        data.addColumn('string', 'Barrio');
+        data.addColumn('string', 'Celular');
+        data.addColumn('string', 'Telefono');
+        data.addRows([
+          ['Andres', 'Orozco', '001-233456-0008Z', 30, 'Masculino', 'Juan Pablo II', '2222-2222', '8888-8888'],
+          ['Martha', 'Guembes', '001-233356-0005X', 29, 'Femenino', 'Vista Hermosa', '2222-2222', '8888-8888']       
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+
+         google.visualization.events.addListener(table, 'select', function() {
+	    var row = table.getSelection()[0].row;
+	    alert('Seleccionaste a ' + data.getValue(row, 0));
+	  });
+      }
+    </script>
+
 </head>
 <body>
 <!-- header -->
@@ -109,7 +141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <option value="saab">Femenino</option>
                     <option value="mercedes">Masculino</option>
                 </select>
-                 <select class="combos-cliente">
+                 <select class="combos-cliente" >
                     <option value="volvo">Selecionar barrio...</option>
                     <option value="saab">Primera etapa</option>
                     <option value="mercedes">Segunda etapa</option>
@@ -117,12 +149,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <option value="mercedes">Juan Pablo II</option>
                      <option value="mercedes">Xolotlán</option>
                 </select>
-				 <input type="text" placeholder="Celular"/>
+				 <input type="text" placeholder="Celular" required/>
 				 <input type="text" placeholder="Telefono" required/>
 				<!--<textarea placeholder="Message"></textarea>-->
+				<input type="reset" value="Nuevo"> 
 				 <input type="submit" value="Guardar">
-                 <input type="submit" value="Nuevo"> 
+				 <input type="submit" value="Modificar">
+				 <input type="submit" value="Dar de baja">
+				 <input type="submit" value="Buscar">               
 			 </form>
+
+			  <div id="table_div"></div>
 		  </div>	 
 	 </div>
 	 </div>

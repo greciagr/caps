@@ -649,6 +649,7 @@ margin-bottom: 1em;
 	font-size: 1.3em;
 	font-weight: 600;
 }
+
 #commentform p {
 	position: relative;
 	padding: 8px 0;
@@ -803,6 +804,26 @@ transition: 0.5s all;
 -ms-transition: 0.5s all;
 }
 .contact-details form input[type="submit"]:hover{
+border: 1px solid black;
+background: #0f2637;
+color: white;
+}
+
+.contact-details form input[type="reset"] {
+font-weight: 400;
+color:blue;
+outline: none;
+border: 1px solid blue;
+font-size: 1em;
+padding: 0.6em 3em;
+background:transparent;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+-moz-transition: 0.5s all;
+-o-transition: 0.5s all;
+-ms-transition: 0.5s all;
+}
+.contact-details form input[type="reset"]:hover{
 border: 1px solid black;
 background: #0f2637;
 color: white;
