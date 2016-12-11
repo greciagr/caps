@@ -721,6 +721,27 @@ transition: 0.5s all ease;
 -ms-transition: 0.5s all ease;
 }
 
+#input{
+  width: 30%;
+height: 20%;
+margin-right: 2%;
+padding: 12px;
+border: 1px solid blue;
+font-size: 1em;
+margin-bottom: 2em;
+color: black;
+background: #fff;
+outline: none;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+transition: 0.5s all ease;
+-webkit-transition: 0.5s all ease;
+-moz-transition: 0.5s all ease;
+-o-transition: 0.5s all ease;
+-ms-transition: 0.5s all ease;
+}
+
+
 .combos-cliente{
   width: 46%;
 height: 20%;
