@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Archive a blog Category Flat Bootstarp Responsive Website Template | Home :: w3layouts</title>
+<title>Factura</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,16 +28,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Cliente');
-        data.addColumn('string', 'Categoria Cliente');
-        data.addColumn('string', 'Barrio');
-        data.addColumn('string', 'Direccion');
-        data.addColumn('boolean', 'Estado');
-        data.addColumn('string', 'Medidor');
         data.addColumn('string', 'Contrato');
+        data.addColumn('string', 'Cliente');
+        data.addColumn('boolean', 'Anulado');
+        data.addColumn('string', 'Fecha de la Factura');
+        data.addColumn('number', 'Numero de Factura');
+        data.addColumn('string', 'Observación');
+        data.addColumn('number', 'Sub Total');
+        data.addColumn('number', 'Total');
 
         data.addRows([
-          ['Darvin Guzman','Jubilado','Xolotlán','Ciudadela San Martín Cristo Rey, Tipitapa', true,'1000-2000-4000','061297']    
+          ['061297','Darvin Guzman',true, '11-12-2016', 0001, '...', 100, 500],       
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
@@ -125,35 +126,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-9 top-right">
 <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Información de Contrato</h2>
+			 <h2>Factura</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				 <input type="text" placeholder="Cliente" required/>
-				 <select class="combos-cliente">
-                    <option value="seleccionar">Selecionar Categoria Cliente...</option>
-                    <option value="jubilado">Jubilado</option>
-                    <option value="madre soltera">Madre Soltera</option>
-                    <option value="embarazada">Embarazada</option>
-                    <option value="discapacitado">Discapacitado</option>
-                </select>
-                <select class="combos-cliente" >
-                    <option value="volvo">Selecionar barrio...</option>
-                    <option value="barrio1">Primera etapa</option>
-                    <option value="barrio2">Segunda etapa</option>
-                    <option value="barrio3">Vista hermosa</option>
-                    <option value="barrio4">Juan Pablo II</option>
-                     <option value="barrio5">Xolotlán</option>
-                </select>
-                <input type="text" placeholder="Dirección" required/>
                  <select class="combos-cliente" >
-                    <option value="seleccionarmedidor">Selecionar medidor...</option>
-                    <option value="medidor1">1000-2000-4000</option>
-                    <option value="medidor2">1001-2000-4050</option>
-                    <option value="medidor3">1000-3200-3000</option>
-                    <option value="medidor4">1000-3520-5420</option>
+                    <option value="#">Selecionar Cliente...</option>
+                    <option value="Primera etapa">Darvin Guzman</option>
+                    <option value="Segunda etapa">Mayuyo Melba</option>
+                    <option value="Vista Hermosa">Grecia Mendoza</option>
                 </select>
-                  <input type="text" placeholder="Contrato" required/><br>
+                 <select class="combos-cliente" >
+                    <option value="#">Seleccionar Contrato...</option>
+                    <option value="Primera etapa">061297</option>
+                    <option value="Segunda etapa">290697</option>
+                    <option value="Vista Hermosa">290797</option>
+                </select>
+				 <input type="text" placeholder="Observación" required/><br>
 				<!--<textarea placeholder="Message"></textarea>-->
 				<input type="reset" value="Nuevo"> 
 				 <input type="submit" value="Guardar">

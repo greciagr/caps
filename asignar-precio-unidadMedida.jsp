@@ -28,16 +28,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Cliente');
         data.addColumn('string', 'Categoria Cliente');
-        data.addColumn('string', 'Barrio');
-        data.addColumn('string', 'Direccion');
-        data.addColumn('boolean', 'Estado');
-        data.addColumn('string', 'Medidor');
-        data.addColumn('string', 'Contrato');
-
+        data.addColumn('string', 'Unidad Medida');
+        
         data.addRows([
-          ['Darvin Guzman','Jubilado','Xolotlán','Ciudadela San Martín Cristo Rey, Tipitapa', true,'1000-2000-4000','061297']    
+          [ 'Jubilado', 'Centímetro'],
+          [ 'Estándar', 'Libras de Agua']       
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
@@ -125,41 +121,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-9 top-right">
 <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Información de Contrato</h2>
+			 <h2>Asignar precio a unidades de medida</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				 <input type="text" placeholder="Cliente" required/>
-				 <select class="combos-cliente">
-                    <option value="seleccionar">Selecionar Categoria Cliente...</option>
-                    <option value="jubilado">Jubilado</option>
-                    <option value="madre soltera">Madre Soltera</option>
-                    <option value="embarazada">Embarazada</option>
-                    <option value="discapacitado">Discapacitado</option>
+				
+                 <select class="combos-cliente">
+                    <option value="volvo">Selecionar Categoria Cliente..</option>
+                    <option value="saab">Jubilado</option>
+                    <option value="mercedes">Estándar</option>
+                    <option value="mercedes">Discapacitado</option>
                 </select>
-                <select class="combos-cliente" >
-                    <option value="volvo">Selecionar barrio...</option>
-                    <option value="barrio1">Primera etapa</option>
-                    <option value="barrio2">Segunda etapa</option>
-                    <option value="barrio3">Vista hermosa</option>
-                    <option value="barrio4">Juan Pablo II</option>
-                     <option value="barrio5">Xolotlán</option>
-                </select>
-                <input type="text" placeholder="Dirección" required/>
                  <select class="combos-cliente" >
-                    <option value="seleccionarmedidor">Selecionar medidor...</option>
-                    <option value="medidor1">1000-2000-4000</option>
-                    <option value="medidor2">1001-2000-4050</option>
-                    <option value="medidor3">1000-3200-3000</option>
-                    <option value="medidor4">1000-3520-5420</option>
+                    <option value="volvo">Selecionar Unidades de Medida...</option>
+                    <option value="saab">Centímetros</option>
+                    <option value="mercedes">Libras de Agua</option>
                 </select>
-                  <input type="text" placeholder="Contrato" required/><br>
 				<!--<textarea placeholder="Message"></textarea>-->
 				<input type="reset" value="Nuevo"> 
 				 <input type="submit" value="Guardar">
 				 <input type="submit" value="Modificar">
-				 <input type="submit" value="Dar de baja">
-				 <input type="submit" value="Buscar">               
 			 </form>
 
 			  <div id="table_div"></div>
