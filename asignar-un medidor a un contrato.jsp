@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Clientes</title>
+<title>Archive a blog Category Flat Bootstarp Responsive Website Template | Home :: w3layouts</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,17 +28,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Nombres');
-        data.addColumn('string', 'Apellidos');
-        data.addColumn('string', 'Cedula');
-        data.addColumn('number', 'Edad');
-        data.addColumn('string', 'Sexo');
-        data.addColumn('string', 'Barrio');
-        data.addColumn('string', 'Celular');
-        data.addColumn('string', 'Telefono');
+        data.addColumn('string', 'Cliente');
+        data.addColumn('string', 'Medidor');
+        data.addColumn('string', 'Contrato');
+        
         data.addRows([
-          ['Andres', 'Orozco', '001-233456-0008Z', 30, 'Masculino', 'Juan Pablo II', '2222-2222', '8888-8888'],
-          ['Martha', 'Guembes', '001-233356-0005X', 29, 'Femenino', 'Vista Hermosa', '2222-2222', '8888-8888']       
+          [ 'Darvin Guzman', '1000-2000-4000', '061297']    
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
@@ -69,12 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li class="active"><a href="#">Factura</a></li>
 							<li><a href="#">Recibos</a></li>
 							<li><a href="#">Servicios</a></li>
-							<li><a href="#">Precio de unidad de medida</a></li>
-							<li><a href="#">Unidades de Medidas</a></li>
-							<li><a href="#">Ingresos y egresos de la institucion</a></li>
-							<li><a href="#">Contrato</a></li>
-							<li><a href="#">Registrar medidores</a></li>
-							<li><a href="#">Asignar medidor a contrato</a></li>
+							<li><a href="#">Medidas</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 						<!-- script-for-nav -->
@@ -92,67 +82,73 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Reportes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Historial por micromedición</a></li>
-						<li><a href="#">Historial de cliente</a></li>
-			 			<li><a href="#">Documentos</a></li>
-						<li><a href="#">Clausulas de documentos</a></li>
+						<li><a href="#">Contrato</a></li>
+						<li><a href="#">Cortes</a></li>
+						<li><a href="#">Historial</a></li>
+						<li><a href="#">Documentos</a></li>
 					</ul>
 				</div>
 				<div class="project">
-					<h4>Clientes</h4>
+					<h4>Services</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Clientes</a></li>
-						<li><a href="#">Buscar clientes</a></li>
-			 			<li><a href="#">Categoria de clientes</a></li>
+						<li><a href="#">Web design</a></li>
+						<li><a href="#">Graphic design</a></li>
+						<li><a href="#">Logo design</a></li>
+						<li><a href="#">WordpPress</a></li>
+						<li><a href="#">Vector graphics</a></li>
 					</ul>
 				</div>
 				<div class="project">
-					<h4>Seguridad</h4>
+					<h4>Social</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Permisos</a></li>
-						<li><a href="#">Opciones</a></li>
-			 			<li><a href="#">Roles</a></li>
-						 <li><a href="#">Usuarios</a></li>
-						 <li><a href="#">Asignar permisos a opciones</a></li>
-						 <li><a href="#">Asignar opciones a roles</a></li>
-						 <li><a href="#">Asignar roles a usuarios</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Dribbble</a></li>
+						<li><a href="#">Behance</a></li>
 					</ul>
+				</div>
+				<div class="project">
+					<h4>Twitter Feed</h4>
+					<label></label>
+					<p>hey <a href="#">@webfan </a> just been using James George’s website template. i can’t believe he gives them away!</p>
+					<h6>1 day ago</h6>
+					<p>Just purchased <a href="#">@creativebeacon's</a> great book: Beautiful Web Design</p>
+					<h6>1 day ago</h6>
 				</div>
 			</div>
 			<div class="col-md-9 top-right">
 <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Información de Cliente</h2>
+			 <h2>Asignar Medidor a un Contrato</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				 <input type="text" placeholder="Nombres" required/>
-                 <input type="text" placeholder="Apellidos" required/>
-				 <input type="text" placeholder="Cedula" required/>
-                 <input type="text" placeholder="Edad" required/>
+				
                  <select class="combos-cliente">
-                    <option value="#">Selecionar sexo...</option>
-                    <option value="Femenino">Femenino</option>
-                    <option value="Masculino">Masculino</option>
+                    <option value="volvo">Selecionar Cliente..</option>
+                    <option value="saab">Darvin Guzman</option>
+                    <option value="mercedes">Grecia Mendoza</option>
                 </select>
                  <select class="combos-cliente" >
-                    <option value="#">Selecionar barrio...</option>
-                    <option value="Primera etapa">Primera etapa</option>
-                    <option value="Segunda etapa">Segunda etapa</option>
-                    <option value="Vista Hermosa">Vista hermosa</option>
-                    <option value="Juan Pablo II">Juan Pablo II</option>
-                     <option value="Xolotlán">Xolotlán</option>
+                    <option value="volvo">Selecionar Medidor...</option>
+                    <option value="saab">1000-2000-4000 </option>
+                    <option value="mercedes">1500-3001-4580</option>
                 </select>
-				 <input type="text" placeholder="Celular" required/>
-				 <input type="text" placeholder="Telefono" required/>
+                 <select class="combos-cliente" >
+                    <option value="volvo">Selecionar Contrato...</option>
+                    <option value="saab">061297</option>
+                    <option value="mercedes">290697</option>
+                    <option value="mercedes">290797</option>
+                </select><br>
+
 				<!--<textarea placeholder="Message"></textarea>-->
 				<input type="reset" value="Nuevo"> 
 				 <input type="submit" value="Guardar">
 				 <input type="submit" value="Modificar">
 				 <input type="submit" value="Dar de baja">
-				 <input type="submit" value="Buscar">               
+				            
 			 </form>
 
 			  <div id="table_div"></div>
