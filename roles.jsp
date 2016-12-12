@@ -126,10 +126,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <form>
 				 <br><input type="text" placeholder="Rol" required/></br>
 				<!--<textarea placeholder="Message"></textarea>-->
-				 <input type="submit" value="Crear">
-				 <input type="submit" value="Eliminar">
+				 <input type="reset" value="Nuevo"> 
+				 <input type="submit" value="Guardar">
 				 <input type="submit" value="Modificar">
-
+				 <input type="submit" value="Eliminar">
 			  <div id="table_div"></div>
 		  </div>	 
 	 </div>

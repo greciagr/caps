@@ -1,4 +1,3 @@
-
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -28,11 +27,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Nombre');
-        data.addColumn('string', 'Usuarios');
-        data.addColumn('string', 'Contraseña');
+        data.addColumn('string', 'Permiso');
         data.addRows([
-          ['Mauricio Camacho','mcamachoxd','Oracle2016']    
+          ['Permiso prueba'],   
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
@@ -120,18 +117,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-9 top-right">
 <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Información de Usuario</h2>
+			 <h2>Permiso</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				<input type="text" placeholder="Nombre" required/>
-				<input type="text" placeholder="Usuario" required/>
-                <input type="text" placeholder="Contraseña" required/><br>
+				 <input type="text" placeholder="Nombre del Permiso" required/><br>                
 				<!--<textarea placeholder="Message"></textarea>-->
-				<input type="reset" value="Nuevo"> 
+				 <input type="reset" value="Nuevo"> 
 				 <input type="submit" value="Guardar">
 				 <input type="submit" value="Modificar">
-				 <input type="submit" value="Eliminar">
+				 <input type="submit" value="Eliminar">      
 			 </form>
 
 			  <div id="table_div"></div>

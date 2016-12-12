@@ -27,9 +27,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Permiso');
+        data.addColumn('string', 'Opciones');
         data.addRows([
-          ['Permiso prueba'],   
+          ['prueba opciones'],   
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
@@ -115,18 +115,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="col-md-9 top-right">
-<div class="contact-content">
+            <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Permiso</h2>
+			 <h2>Opciones</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				 <input type="text" placeholder="Nombre del Permiso" required/>
-                  <input id="esconder" type="text" placeholder="Documento" required/>
+				 <input type="text" placeholder="Opciones" required/><br>
 				<!--<textarea placeholder="Message"></textarea>-->
-				<input type="reset" value="Nuevo"> 
+				 <input type="reset" value="Nuevo"> 
 				 <input type="submit" value="Guardar">
-				 <input type="submit" value="Modificar">         
+				 <input type="submit" value="Modificar">
+				 <input type="submit" value="Eliminar">       
 			 </form>
 
 			  <div id="table_div"></div>
