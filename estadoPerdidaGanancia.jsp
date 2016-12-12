@@ -66,10 +66,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="head-nav">
 					<span class="menu"> </span>
 						<ul class="cl-effect-15">
-							<li class="active"><a href="#">Factura</a></li>
-							<li><a href="#">Recibos</a></li>
-							<li><a href="#">Servicios</a></li>
-							<li><a href="#">Medidas</a></li>
+							<li><a href="factura.jsp">Factura</a></li>
+							<li><a href="recibo.jsp">Recibos</a></li>
+							<li><a href="servicios.jsp">Servicios</a></li>
+							<li><a href="asignarPrecioUnidadMedida.jsp">Precio de unidad de medida</a></li>
+							<li><a href="unidadMedida.jsp">Unidades de Medidas</a></li>
+							<li><a href="#">Ingresos y egresos de la institucion</a></li>
+							<li><a href="contrato.jsp">Contrato</a></li>
+							<li><a href="medidor.jsp">Registrar medidores</a></li>
+							<li><a href="asignarMedidorContrato.jsp">Asignar medidor a contrato</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 						<!-- script-for-nav -->
@@ -87,40 +92,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Reportes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Contrato</a></li>
-						<li><a href="#">Cortes</a></li>
-						<li><a href="#">Historial</a></li>
-						<li><a href="#">Documentos</a></li>
+						<li><a href="historialMicromedicion.jsp">Historial por micromedición</a></li>
+						<li><a href="historialCliente.jsp">Historial de cliente</a></li>
+						<li><a href="documentos.jsp">Documentos</a></li>
 					</ul>
 				</div>
 				<div class="project">
-					<h4>Services</h4>
+					<h4>Clientes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Web design</a></li>
-						<li><a href="#">Graphic design</a></li>
-						<li><a href="#">Logo design</a></li>
-						<li><a href="#">WordpPress</a></li>
-						<li><a href="#">Vector graphics</a></li>
+						<li class="active"><a href="cliente.jsp">Clientes</a></li>						
+			 			<li><a href="categoriaCliente.jsp">Categoria de clientes</a></li>
 					</ul>
 				</div>
 				<div class="project">
-					<h4>Social</h4>
+					<h4>Seguridad</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Dribbble</a></li>
-						<li><a href="#">Behance</a></li>
+						<li><a href="permisos.jsp">Permisos</a></li>
+						<li><a href="opciones.jsp">Opciones</a></li>
+			 			<li><a href="roles.jsp">Roles</a></li>
+						 <li><a href="usuarios.jsp">Usuarios</a></li>
+						 <li><a href="asignarOpcionPermiso.jsp">Asignar permisos a opciones</a></li>
+						 <li><a href="asignarOpcionesRoles.jsp">Asignar opciones a roles</a></li>
+						 <li><a href="asignarUsuarioRoles.jsp">Asignar roles a usuarios</a></li>
 					</ul>
-				</div>
-				<div class="project">
-					<h4>Twitter Feed</h4>
-					<label></label>
-					<p>hey <a href="#">@webfan </a> just been using James George’s website template. i can’t believe he gives them away!</p>
-					<h6>1 day ago</h6>
-					<p>Just purchased <a href="#">@creativebeacon's</a> great book: Beautiful Web Design</p>
-					<h6>1 day ago</h6>
 				</div>
 			</div>
 			<div class="col-md-9 top-right">

@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="head-nav">
 					<span class="menu"> </span>
 						<ul class="cl-effect-15">
-							<li class="active"><a href="#">Factura</a></li>
+							<li><a href="factura.jsp">Factura</a></li>
 							<li><a href="recibo.jsp">Recibos</a></li>
 							<li><a href="servicios.jsp">Servicios</a></li>
 							<li><a href="asignarPrecioUnidadMedida.jsp">Precio de unidad de medida</a></li>
@@ -94,15 +94,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a href="historialMicromedicion.jsp">Historial por micromedición</a></li>
 						<li><a href="historialCliente.jsp">Historial de cliente</a></li>
-						<li><a href="#">Clausulas de documentos</a></li>
+						<li><a href="documentos.jsp">Documentos</a></li>
 					</ul>
 				</div>
 				<div class="project">
 					<h4>Clientes</h4>
 					<label></label>
 					<ul>
-						<li><a href="cliente.jsp">Clientes</a></li>
-						<li><a href="#">Buscar clientes</a></li>
+						<li class="active"><a href="cliente.jsp">Clientes</a></li>						
 			 			<li><a href="categoriaCliente.jsp">Categoria de clientes</a></li>
 					</ul>
 				</div>
