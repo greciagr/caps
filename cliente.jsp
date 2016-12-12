@@ -94,7 +94,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a href="#">Historial por micromedición</a></li>
 						<li><a href="#">Historial de cliente</a></li>
-			 			<li><a href="#">Documentos</a></li>
 						<li><a href="#">Clausulas de documentos</a></li>
 					</ul>
 				</div>
