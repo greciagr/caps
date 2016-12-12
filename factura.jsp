@@ -87,10 +87,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Reportes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Contrato</a></li>
+						<li><a href="contrato.jsp">Contrato</a></li>
 						<li><a href="#">Cortes</a></li>
-						<li><a href="#">Historial</a></li>
-						<li><a href="#">Documentos</a></li>
+						<li><a href="historialCliente.jsp">Historial</a></li>
+						<li><a href="documentos.jsp">Documentos</a></li>
 					</ul>
 				</div>
 				<div class="project">

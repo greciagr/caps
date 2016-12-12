@@ -67,14 +67,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="menu"> </span>
 						<ul class="cl-effect-15">
 							<li class="active"><a href="#">Factura</a></li>
-							<li><a href="#">Recibos</a></li>
-							<li><a href="#">Servicios</a></li>
-							<li><a href="#">Precio de unidad de medida</a></li>
-							<li><a href="#">Unidades de Medidas</a></li>
-							<li><a href="#">Ingresos y egresos de la institucion</a></li>
-							<li><a href="#">Contrato</a></li>
-							<li><a href="#">Registrar medidores</a></li>
-							<li><a href="#">Asignar medidor a contrato</a></li>
+							<li><a href="recibo.jsp">Recibos</a></li>
+							<li><a href="servicios.jsp">Servicios</a></li>
+							<li><a href="asignarPrecioUnidadMedida.jsp">Precio de unidad de medida</a></li>
+							<li><a href="unidadMedida.jsp">Unidades de Medidas</a></li>
+							<li><a href="estadoPerdidaGanancia.jsp">Ingresos y egresos de la institucion</a></li>
+							<li><a href="contrato.jsp">Contrato</a></li>
+							<li><a href="medidor.jsp">Registrar medidores</a></li>
+							<li><a href="asignarMedidorContrato.jsp">Asignar medidor a contrato</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 						<!-- script-for-nav -->
@@ -92,8 +92,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Reportes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Historial por micromedición</a></li>
-						<li><a href="#">Historial de cliente</a></li>
+						<li><a href="historialMicromedicion.jsp">Historial por micromedición</a></li>
+						<li><a href="historialCliente.jsp">Historial de cliente</a></li>
 						<li><a href="#">Clausulas de documentos</a></li>
 					</ul>
 				</div>
@@ -101,22 +101,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Clientes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Clientes</a></li>
+						<li><a href="cliente.jsp">Clientes</a></li>
 						<li><a href="#">Buscar clientes</a></li>
-			 			<li><a href="#">Categoria de clientes</a></li>
+			 			<li><a href="categoriaCliente.jsp">Categoria de clientes</a></li>
 					</ul>
 				</div>
 				<div class="project">
 					<h4>Seguridad</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Permisos</a></li>
-						<li><a href="#">Opciones</a></li>
-			 			<li><a href="#">Roles</a></li>
-						 <li><a href="#">Usuarios</a></li>
-						 <li><a href="#">Asignar permisos a opciones</a></li>
-						 <li><a href="#">Asignar opciones a roles</a></li>
-						 <li><a href="#">Asignar roles a usuarios</a></li>
+						<li><a href="permisos.jsp">Permisos</a></li>
+						<li><a href="opciones.jsp">Opciones</a></li>
+			 			<li><a href="roles.jsp">Roles</a></li>
+						 <li><a href="usuarios.jsp">Usuarios</a></li>
+						 <li><a href="asignarOpcionPermiso.jsp">Asignar permisos a opciones</a></li>
+						 <li><a href="asignarOpcionesRoles.jsp">Asignar opciones a roles</a></li>
+						 <li><a href="asignarUsuarioRoles.jsp">Asignar roles a usuarios</a></li>
 					</ul>
 				</div>
 			</div>
