@@ -69,7 +69,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li class="active"><a href="#">Factura</a></li>
 							<li><a href="#">Recibos</a></li>
 							<li><a href="#">Servicios</a></li>
-							<li><a href="#">Medidas</a></li>
+							<li><a href="#">Precio de unidad de medida</a></li>
+							<li><a href="#">Unidades de Medidas</a></li>
+							<li><a href="#">Ingresos y egresos de la institucion</a></li>
+							<li><a href="#">Contrato</a></li>
+							<li><a href="#">Registrar medidores</a></li>
+							<li><a href="#">Asignar medidor a contrato</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 						<!-- script-for-nav -->
@@ -87,40 +92,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Reportes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Contrato</a></li>
-						<li><a href="#">Cortes</a></li>
-						<li><a href="#">Historial</a></li>
-						<li><a href="#">Documentos</a></li>
+						<li><a href="#">Historial por micromedición</a></li>
+						<li><a href="#">Historial de cliente</a></li>
+			 			<li><a href="#">Documentos</a></li>
+						<li><a href="#">Clausulas de documentos</a></li>
 					</ul>
 				</div>
 				<div class="project">
-					<h4>Services</h4>
+					<h4>Clientes</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Web design</a></li>
-						<li><a href="#">Graphic design</a></li>
-						<li><a href="#">Logo design</a></li>
-						<li><a href="#">WordpPress</a></li>
-						<li><a href="#">Vector graphics</a></li>
+						<li><a href="#">Clientes</a></li>
+						<li><a href="#">Buscar clientes</a></li>
+			 			<li><a href="#">Categoria de clientes</a></li>
 					</ul>
 				</div>
 				<div class="project">
-					<h4>Social</h4>
+					<h4>Seguridad</h4>
 					<label></label>
 					<ul>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Dribbble</a></li>
-						<li><a href="#">Behance</a></li>
+						<li><a href="#">Permisos</a></li>
+						<li><a href="#">Opciones</a></li>
+			 			<li><a href="#">Roles</a></li>
+						 <li><a href="#">Usuarios</a></li>
+						 <li><a href="#">Asignar permisos a opciones</a></li>
+						 <li><a href="#">Asignar opciones a roles</a></li>
+						 <li><a href="#">Asignar roles a usuarios</a></li>
 					</ul>
-				</div>
-				<div class="project">
-					<h4>Twitter Feed</h4>
-					<label></label>
-					<p>hey <a href="#">@webfan </a> just been using James George’s website template. i can’t believe he gives them away!</p>
-					<h6>1 day ago</h6>
-					<p>Just purchased <a href="#">@creativebeacon's</a> great book: Beautiful Web Design</p>
-					<h6>1 day ago</h6>
 				</div>
 			</div>
 			<div class="col-md-9 top-right">

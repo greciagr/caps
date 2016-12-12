@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -119,35 +120,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-9 top-right">
 <div class="contact-content">
 		     <div class="contact-info">
-			 <h2>Información de Cliente</h2>
+			 <h2>Historial de clientes</h2>
 			 </div>
 			 <div class="contact-details">				 
 			 <form>
-				 <input type="text" placeholder="Nombres" required/>
-                 <input type="text" placeholder="Apellidos" required/>
-				 <input type="text" placeholder="Cedula" required/>
-                 <input type="text" placeholder="Edad" required/>
                  <select class="combos-cliente">
-                    <option value="#">Selecionar sexo...</option>
-                    <option value="Femenino">Femenino</option>
-                    <option value="Masculino">Masculino</option>
+                    <option value="#">Buscar por...</option>
+                    <option value="Nombre">Nombre</option>
+                    <option value="Barrio">Barrio</option>
+                    <option value="Cedula">Cedula</option>
                 </select>
-                 <select class="combos-cliente" >
-                    <option value="#">Selecionar barrio...</option>
-                    <option value="Primera etapa">Primera etapa</option>
-                    <option value="Segunda etapa">Segunda etapa</option>
-                    <option value="Vista Hermosa">Vista hermosa</option>
-                    <option value="Juan Pablo II">Juan Pablo II</option>
-                     <option value="Xolotlán">Xolotlán</option>
-                </select>
-				 <input type="text" placeholder="Celular" required/>
-				 <input type="text" placeholder="Telefono" required/>
-				<!--<textarea placeholder="Message"></textarea>-->
-				<input type="reset" value="Nuevo"> 
-				 <input type="submit" value="Guardar">
-				 <input type="submit" value="Modificar">
-				 <input type="submit" value="Dar de baja">
-				 <input type="submit" value="Buscar">               
+                <input id="input"type="text" placeholder="Buscar" required/>
+				<input type="reset" value="Buscar">              
 			 </form>
 
 			  <div id="table_div"></div>
